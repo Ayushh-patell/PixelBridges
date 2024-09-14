@@ -9,6 +9,7 @@ import Image from 'next/image';
 import arrow from "../../PixelBridges/arrow.png"
 
 const leftCarouselTexts = ["New Name and Identity", "Modern Themes & Visuals", "Enhanced User Experience", "Fully Responsive & Mobile Friendly"]
+const rightCarouselTexts = ["Custom Design & Coding", "E-commerce Integration", "SEO Optimized", "Scalable & Secure"]
 
 const ExpertiseScreen = () => {
 
@@ -79,7 +80,7 @@ const ExpertiseScreen = () => {
     // CHANGING THE CAROUSEL TEXT ACCORDING TO THE SLIDE
     document.getElementById("leftcarouselText").innerText = leftCarouselTexts[leftCurrSlide]
   },[leftCurrSlide])
-
+  
   const handleleftCarouselLeftBtn = () => {
     if(leftCurrSlide>0) {
       setleftCurrSlide((prev) => prev-1)
@@ -96,18 +97,18 @@ const ExpertiseScreen = () => {
     if(rightCurrSlide<4) {
       document.querySelectorAll(".rightCarouselItem").forEach((item) => gsap.to(item, {translateX:`${-100*rightCurrSlide}%`, duration:1}))
     }
-
+    
     if(rightCurrSlide===0) {
       document.getElementById("rightCarouselLeftButton").style.backgroundColor = "transparent"
       document.getElementById("rightCarouselLeftBtnimg").style.filter = "invert(0)"
-
+      
       document.getElementById("rightCarouselRightButton").style.backgroundColor = "#d9d9d9"
       document.getElementById("rightCarouselRightBtnimg").style.filter = "invert(1)"
     }
     if(rightCurrSlide>=3) {
       document.getElementById("rightCarouselRightButton").style.backgroundColor = "transparent"
       document.getElementById("rightCarouselRightBtnimg").style.filter = "invert(0)"
-
+      
       document.getElementById("rightCarouselLeftButton").style.backgroundColor = "#d9d9d9"
       document.getElementById("rightCarouselLeftBtnimg").style.filter = "invert(1)"
     }
@@ -116,8 +117,11 @@ const ExpertiseScreen = () => {
       document.getElementById("rightCarouselLeftBtnimg").style.filter = "invert(1)"
       document.getElementById("rightCarouselRightButton").style.backgroundColor = "#d9d9d9"
       document.getElementById("rightCarouselRightBtnimg").style.filter = "invert(1)"
-
+      
     }
+    
+    // CHANGING THE CAROUSEL TEXT ACCORDING TO THE SLIDE
+    document.getElementById("rightcarouselText").innerText = rightCarouselTexts[rightCurrSlide]
   },[rightCurrSlide])
 
   const handlerightCarouselLeftBtn = () => {
