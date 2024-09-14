@@ -6,10 +6,46 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'sm4': '400px',
+      // => @media (min-width: 400px) { ... }
+
+      'sm3': '450px',
+      // => @media (min-width: 450px) { ... }
+      
+      'sm2': '500px',
+      // => @media (min-width: 500px) { ... }
+
+      'sm1': '600px',
+      // => @media (min-width: 600px) { ... }
+      
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl1': '1124px',
+      // => @media (min-width: 1124px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '1xl': '1400px',
+      // => @media (min-width: 1400px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        mainBg:'#925EFF'
+      },
+      translate: {
+        'translate-center':'-50% -50%'
       },
     },
   },

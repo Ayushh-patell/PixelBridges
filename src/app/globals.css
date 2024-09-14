@@ -2,22 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: white;
+  background: #110e17;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#centerTextRight {
+  mask-image: radial-gradient(circle at -45% 50%, rgba(255,255,255,0) 40%, rgba(0,0,0,1) 40.1%);
+}
+
+#centerTextLeft {
+  mask-image: radial-gradient(circle at 145% 50%, rgba(255,255,255,0) 40%, rgba(0,0,0,1) 40.1%);
+}
+
+#centerText {
+  transition: margin-left 0.6s linear, margin-right 0.6z linear;
+}
+
+/* #aboutscreenOurStory::before {
+  content: "";
+  position: absolute; 
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: ;
+  mix-blend-mode: screen;
+} */
+
+#aboutwomanDivParent {
+  mask-image: linear-gradient(180deg, transparent 35%, black 35%, black 85%, transparent 85%);
+}
+#aboutwomanDiv {
+  mask-image: url('./PixelBridges/aboutWoman.png');
+  mask-size: contain;
+  mask-position: right;
+  mask-repeat: no-repeat;
 }
 
 @layer utilities {
