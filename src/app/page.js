@@ -62,7 +62,7 @@ export default function Home() {
         </div>
       </div>
 
-        <Image src={mainBg} alt="cityskyline with a bridge" className=" w-screen h-dvh pointer-events-none fixed z-[-10] top-0 left-0"/>
+        <Image src={mainBg} alt="cityskyline with a bridge" className=" w-screen h-dvh pointer-events-none fixed z-[-10] top-0 left-0 object-cover object-left"/>
       </main>
       <ExpertiseScreen/>
       <AboutScreen/>
