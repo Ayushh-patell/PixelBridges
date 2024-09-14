@@ -18,7 +18,7 @@ const AboutWomanImg = () => {
   return (
     <>
       <div className=' pointer-events-none fixed z-10 bg-mainBg h-1/2 w-1/2 right-0 bottom-[15%] mix-blend-screen'>
-    <p className={` absolute top-0 left-0 h-full p-4 pt-3 tracking-[0.5rem] flex flex-col-reverse justify-between items-center text-black ${bebas.className}`}>
+    <p className={` absolute top-0 left-0 h-full p-4 pt-3 tracking-[0.5rem] flex flex-col-reverse justify-between items-center text-lg text-black ${bebas.className}`}>
         <span className=' -rotate-90 origin-center'>P</span>
         <span className=' -rotate-90 origin-center'>I</span>
         <span className=' -rotate-90 origin-center'>X</span>
