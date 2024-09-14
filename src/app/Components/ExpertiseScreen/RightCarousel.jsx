@@ -8,7 +8,7 @@ import Image from 'next/image'
 const RightCarousel = () => {
   return (
     <div id='rightCarousel' className=' fixed h-dvh z-0 w-full top-0 -right-full flex justify-start items-center overflow-hidden'>
-        <div id='rightcarouselText' className=' bg-[#1A181D] rounded-full px-10 py-3 text-lg z-20 absolute top-1/2 -translate-y-1/2 right-[14%]'>Custom Design & Coding</div>
+        <div id='rightcarouselText' className=' bg-[#1A181D] rounded-full lg:px-16 px-10 lg:py-5 py-3 text-lg z-20 absolute top-1/2 -translate-y-1/2 right-[11.5%]'>Custom Design & Coding</div>
       <Image src={RightCarousel1} alt='right carousel' className='rightCarouselItem object-cover object-left w-full h-full flex-shrink-0'/>
       <Image src={RightCarousel2} alt='right carousel' className='rightCarouselItem object-cover object-left w-full h-full flex-shrink-0'/>
       <Image src={RightCarousel3} alt='right carousel' className='rightCarouselItem object-cover object-left w-full h-full flex-shrink-0'/>

@@ -11,7 +11,7 @@ const AboutScreen = () => {
       <div id='aboutscreenOurStory' className=' fixed z-10 top-0 left-0 h-dvh w-2/5 p-10 py-28 font-[family-name:var(--font-nexa)] bg-gradient-to-b from-[#7d79ff]/20 to-white/10  backdrop-blur-sm'>
       
         <h2 className=' border-l-[15px] border-mainBg px-4 mt-10 mx-auto w-max py-3 text-7xl text-white'>Our Story</h2>
-<div className={` w-full ${mont.className} text-xl space-y-3 pt-8 px-4 text-white/65`}>
+<div className={` w-full ${mont.className} text-xl space-y-5 pt-8 px-4 text-white/65`}>
     
 <p>
         <span className=' font-bold'>Pixelbridges started in 2023</span> with one goal in mind: to help businesses redefine their digital presence.

@@ -143,9 +143,11 @@ const ExpertiseScreen = () => {
 
     <div id='centerText' className=' h-full w-[65%] fixed top-0 right-0 z-10'>
 
-<div id='centerTextRight' className={` ${isLeftOn? " opacity-100 pointer-events-auto":" opacity-0 pointer-events-none"} transition-opacity duration-700 flex flex-col justify-between items-center  w-full h-full p-10 pt-32 pl-44 bg-[#110E17F7] `}>
-        <button onClick={() => setisLeftOn((prev) => !prev)} className={` h-3 w-2/5 rounded-full bg-[#d9d9d9]/10 flex justify-start items-center`}>
-          <div className={` w-1/2 rounded-full h-full ${isLeftOn?" bg-mainBg translate-x-0":" bg-[#5E81FF] translate-x-32"} transition-all duration-700`}></div>
+<div id='centerTextRight' className={` ${isLeftOn? " opacity-100 pointer-events-auto":" opacity-0 pointer-events-none"} transition-opacity duration-700 flex flex-col justify-between items-center  w-full h-full p-10 pt-40 pl-44 bg-[#110E17F7] `}>
+
+<div>
+<button onClick={() => setisLeftOn((prev) => !prev)} className={` h-[14px] w-1/2 rounded-full bg-[#d9d9d9]/10 flex justify-start items-center mb-12 mx-auto`}>
+          <div className={` w-1/2 rounded-full h-full ${isLeftOn?" bg-[#B896FF] translate-x-0":" bg-[#5E81FF] translate-x-32"} transition-all duration-700`}></div>
         </button>
 
         <div className=' relative text-center p-3'>
@@ -154,8 +156,9 @@ const ExpertiseScreen = () => {
 
             <div aria-hidden className=' bg-mainBg h-full w-1/2 absolute top-0 right-0 z-0'/>
         </div>
+</div>
 
-        <div className=' text-center text-xl space-y-3'>
+        <div className=' text-center text-xl space-y-3 px-4'>
             <p>
             We specialize in breathing new life into outdated websites by giving them a <span className=' text-[#AD86FF] font-bold'>fresh identity,  modern themes,  and an enhanced user experience.</span> 
             </p>
@@ -165,12 +168,14 @@ const ExpertiseScreen = () => {
         </div>
 
         <div className=' w-full flex justify-end items-center gap-4'>
-            <button onClick={handleleftCarouselLeftBtn} id='leftCarouselLeftButton' className=' bg-[#d9d9d9] border border-[#d9d9d9] size-10 flex justify-center items-center'> <Image src={arrow} alt='arrow left' id='leftCarouselLeftBtnimg' className=' size-1/2 '/></button>
-            <button onClick={handleleftCarouselRightBtn} id='leftCarouselRightButton' className=' bg-[#d9d9d9] border border-[#d9d9d9] size-10 flex justify-center items-center'> <Image src={arrow} alt='arrow right' id='leftCarouselRightBtnimg' className=' size-1/2 invert rotate-180'/></button>
+            <button onClick={handleleftCarouselLeftBtn} id='leftCarouselLeftButton' className=' bg-[#d9d9d9] border-2 border-[#d9d9d9] size-10 flex justify-center items-center'> <Image src={arrow} alt='arrow left' id='leftCarouselLeftBtnimg' className=' size-1/2 '/></button>
+            <button onClick={handleleftCarouselRightBtn} id='leftCarouselRightButton' className=' bg-[#d9d9d9] border-2 border-[#d9d9d9] size-10 flex justify-center items-center'> <Image src={arrow} alt='arrow right' id='leftCarouselRightBtnimg' className=' size-1/2 invert rotate-180'/></button>
         </div>
 </div>
-<div id='centerTextLeft' className={` ${!isLeftOn? " opacity-100 pointer-events-auto":" opacity-0 pointer-events-none"} transition-opacity duration-700 absolute top-0 left-0 flex flex-col justify-between items-center  w-full h-full p-10 pt-32 pr-44 bg-[#110E17F7] `}>
-        <button onClick={() => setisLeftOn((prev) => !prev)} className={` h-3 w-2/5 rounded-full bg-[#d9d9d9]/10 flex justify-end items-center`}>
+<div id='centerTextLeft' className={` ${!isLeftOn? " opacity-100 pointer-events-auto":" opacity-0 pointer-events-none"} transition-opacity duration-700 absolute top-0 left-0 flex flex-col justify-between items-center  w-full h-full p-10 pt-40 pr-44 bg-[#110E17F7] `}>
+
+<div>
+<button onClick={() => setisLeftOn((prev) => !prev)} className={` h-[14px] w-1/2 rounded-full bg-[#d9d9d9]/10 flex justify-end items-center mx-auto mb-10`}>
         <div className={` w-1/2 rounded-full h-full ${!isLeftOn?" bg-[#5E81FF] translate-x-0":" bg-mainBg -translate-x-32"} transition-all duration-700`}></div>
         </button>
 
@@ -180,8 +185,9 @@ const ExpertiseScreen = () => {
 
             <div aria-hidden className=' bg-[#5E81FF] h-full w-1/2 absolute top-0 right-0 z-0'/>
         </div>
+</div>
 
-        <div className=' text-center text-xl space-y-3'>
+        <div className=' text-center text-xl space-y-3 px-4'>
             <p>
             Need a new website built from scratch? Our expert designers and developers create bespoke websites that are tailor-made for your business. 
             </p>
@@ -190,9 +196,9 @@ const ExpertiseScreen = () => {
             </p>
         </div>
 
-        <div className=' w-full flex justify-end items-center gap-4'>
-        <button onClick={handlerightCarouselLeftBtn} id='rightCarouselLeftButton' className=' bg-[#d9d9d9] border border-[#d9d9d9] size-10 flex justify-center items-center'> <Image src={arrow} alt='arrow left' id='rightCarouselLeftBtnimg' className=' size-1/2 '/></button>
-        <button onClick={handlerightCarouselRightBtn} id='rightCarouselRightButton' className=' bg-[#d9d9d9] border border-[#d9d9d9] size-10 flex justify-center items-center'> <Image src={arrow} alt='arrow right' id='rightCarouselRightBtnimg' className=' size-1/2 invert rotate-180'/></button>
+        <div className=' w-full flex justify-start items-center gap-4'>
+        <button onClick={handlerightCarouselLeftBtn} id='rightCarouselLeftButton' className=' bg-[#d9d9d9] border-2 border-[#d9d9d9] size-10 flex justify-center items-center'> <Image src={arrow} alt='arrow left' id='rightCarouselLeftBtnimg' className=' size-1/2 '/></button>
+        <button onClick={handlerightCarouselRightBtn} id='rightCarouselRightButton' className=' bg-[#d9d9d9] border-2 border-[#d9d9d9] size-10 flex justify-center items-center'> <Image src={arrow} alt='arrow right' id='rightCarouselRightBtnimg' className=' size-1/2 invert rotate-180'/></button>
         </div>
 </div>
 
