@@ -25,6 +25,9 @@ module.exports = {
       'md': '768px',
       // => @media (min-width: 768px) { ... }
 
+      'lg1': '940px',
+      // => @media (min-width: 940px) { ... }
+
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
@@ -34,8 +37,14 @@ module.exports = {
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
 
+      '1xl1': '1330px',
+      // => @media (min-width: 1330px) { ... }
+
       '1xl': '1400px',
       // => @media (min-width: 1400px) { ... }
+
+      '2xl1': '1450px',
+      // => @media (min-width: 1450px) { ... }
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }

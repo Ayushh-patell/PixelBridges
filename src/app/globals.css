@@ -49,3 +49,54 @@ body {
     text-wrap: balance;
   }
 }
+
+@media screen and (max-width:1450px) {
+  #aboutwomanDivParent {
+    mask-image: linear-gradient(180deg, transparent 28%, black 28%, black 83%, transparent 83%);
+  }
+
+  
+#centerTextRight {
+  mask-image: radial-gradient(circle at -60% 50%, rgba(255,255,255,0) 45%, rgba(0,0,0,1) 45.1%);
+}
+
+#centerTextLeft {
+  mask-image: radial-gradient(circle at 160% 50%, rgba(255,255,255,0) 45%, rgba(0,0,0,1) 45.1%);
+}
+}
+@media screen and (max-width:1220px) {
+  #centerTextRight {
+    mask-image: radial-gradient(circle at -100% 50%, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 55.1%);
+  }
+  
+  #centerTextLeft {
+    mask-image: radial-gradient(circle at 200% 50%, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 55.1%);
+  }
+}
+@media screen and (max-width:990px) {
+  #centerTextRight {
+    mask-image: radial-gradient(circle at -130% 50%, rgba(255,255,255,0) 60%, rgba(0,0,0,1) 60.1%);
+  }
+  
+  #centerTextLeft {
+    mask-image: radial-gradient(circle at 230% 50%, rgba(255,255,255,0) 60%, rgba(0,0,0,1) 60.1%);
+  }
+}
+@media screen and (max-width:940px) {
+  #centerTextRight {
+    mask-image: radial-gradient(circle at -200% 50%, rgba(255,255,255,0) 70%, rgba(0,0,0,1) 70.1%);
+  }
+  
+  #centerTextLeft {
+    mask-image: radial-gradient(circle at 300% 50%, rgba(255,255,255,0) 70%, rgba(0,0,0,1) 70.1%);
+  }
+}
+@media screen and (max-width:768px) {
+  #centerTextRight {
+    mask-image: radial-gradient(circle at 50% -50%, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 55.1%);
+  }
+  
+  #centerTextLeft {
+    mask-image: radial-gradient(circle at 50% -50%, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 55.1%);
+  }
+}

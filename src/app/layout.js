@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} ${nexaFont.variable} antialiased relative z-0 w-screen h-dvh overflow-hidden flex justify-center items-center`}
       >
 
-      <div className=" sm1:w-[calc(100vw-30px)] w-[calc(100vw-15px)] sm1:h-[calc(100dvh-30px)] h-[calc(100dvh-15px)] p-5 pt-3 flex flex-col justify-start items-center">
+      <div className=" sm1:w-[calc(100vw-30px)] w-[calc(100vw-15px)] sm1:h-[calc(100dvh-30px)] h-[calc(100dvh-15px)] sm:p-5 p-3 pt-3 flex flex-col justify-start items-center">
         <NavBar/>
         {children}
       </div>
