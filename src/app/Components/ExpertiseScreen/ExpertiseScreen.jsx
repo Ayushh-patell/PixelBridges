@@ -40,16 +40,16 @@ const ExpertiseScreen = () => {
 
         
         gsap.to("#rightCarousel", {opacity:0, duration:0.7, ease:'none'})
-        gsap.to("#centerTextLeftHeading", { translateY:"100%", opacity:0, duration:0.2, ease:'power1.in'})
-        gsap.to("#centerTextLeftHeading", { scale:0.8, duration:0.2, ease:'power1.in'})
-        gsap.to("#centerTextLeftPara", { translateY:"-60%", opacity:0, duration:0.2, ease:'power1.in'})
-        gsap.to("#centerTextLeftPara", {scale:0.9, duration:0.2, ease:'power1.in'})
-        gsap.to("#centerTextLeftBox", { scale:0.3, duration:0.2, ease:'power1.in'})
+        gsap.to("#centerTextLeftHeading", { translateY:"100%", opacity:0, duration:0.35, ease:'power1.in'})
+        gsap.to("#centerTextLeftHeading", { scale:0.8, duration:0.35, ease:'power1.in'})
+        gsap.to("#centerTextLeftPara", { translateY:"-60%", opacity:0, duration:0.35, ease:'power1.in'})
+        gsap.to("#centerTextLeftPara", {scale:0.9, duration:0.35, ease:'power1.in'})
+        gsap.to("#centerTextLeftBox", { scale:0.3, duration:0.35, ease:'power1.in'})
 
         gsap.to("#leftCarousel", { opacity:1, duration:0.6, ease:'none', delay:0.3})
-        gsap.to("#centerTextRightHeading", { scale:1, translateY:0, opacity:1, duration:0.7, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.3})
-        gsap.to("#centerTextRightPara", { translateY:0, scale:1, opacity:1, duration:0.7, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.3})
-        gsap.to("#centerTextRightBox", { scale:1, duration:0.7, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.4})
+        gsap.to("#centerTextRightHeading", { scale:1, translateY:0, opacity:1, duration:0.6, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.3})
+        gsap.to("#centerTextRightPara", { translateY:0, scale:1, opacity:1, duration:0.6, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.3})
+        gsap.to("#centerTextRightBox", { scale:1, duration:0.6, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.4})
       }
       else {
         gsap.set("#leftCarousel", {pointerEvents:"none"})
@@ -57,16 +57,16 @@ const ExpertiseScreen = () => {
 
 
         gsap.to("#leftCarousel", { opacity:0, duration:0.7, ease:'none'})
-        gsap.to("#centerTextRightHeading", { translateY:"100%", opacity:0, duration:0.2, ease:'power1.in'})
-        gsap.to("#centerTextRightHeading", { scale:0.8, duration:0.2, ease:'power1.in'})
-        gsap.to("#centerTextRightPara", { translateY:"-60%", opacity:0, duration:0.2, ease:'power1.in'})
-        gsap.to("#centerTextRightPara", {scale:0.9, duration:0.2, ease:'power1.in'})
-        gsap.to("#centerTextRightBox", { scale:0.3, duration:0.2, ease:'power1.in'})
+        gsap.to("#centerTextRightHeading", { translateY:"100%", opacity:0, duration:0.35, ease:'power1.in'})
+        gsap.to("#centerTextRightHeading", { scale:0.8, duration:0.35, ease:'power1.in'})
+        gsap.to("#centerTextRightPara", { translateY:"-60%", opacity:0, duration:0.35, ease:'power1.in'})
+        gsap.to("#centerTextRightPara", {scale:0.9, duration:0.35, ease:'power1.in'})
+        gsap.to("#centerTextRightBox", { scale:0.3, duration:0.35, ease:'power1.in'})
 
         gsap.to("#rightCarousel", { opacity:1, duration:0.6, ease:'none', delay:0.3})
-        gsap.to("#centerTextLeftHeading", { scale:1, translateY:0, opacity:1, duration:0.7, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.3})
-        gsap.to("#centerTextLeftPara", { translateY:0, scale:1, opacity:1, duration:0.7, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.3})
-        gsap.to("#centerTextLeftBox", { scale:1, duration:0.7, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.4})
+        gsap.to("#centerTextLeftHeading", { scale:1, translateY:0, opacity:1, duration:0.6, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.3})
+        gsap.to("#centerTextLeftPara", { translateY:0, scale:1, opacity:1, duration:0.6, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.3})
+        gsap.to("#centerTextLeftBox", { scale:1, duration:0.6, ease:CustomEase.create("custom", "M0,0 C0.194,0 0.525,1.097 0.675,1.098 0.856,1.098 0.94,1.018 1,1 "), delay:0.4})
       }
     }
     
