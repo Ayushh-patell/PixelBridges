@@ -37,7 +37,7 @@ export default function Home() {
   <p className=" relative z-10 w-max my-2">into the</p>
   <p className=" relative z-10 w-max my-2">Digital</p>
   <p className=" relative z-10 w-max mt-2">World.</p>
-  <p className=" relative z-10 w-full text-center">“</p>
+  <p className=" relative z-10 w-full text-center">”</p>
 
   <div aria-hidden className=" bg-mainBg absolute top-1/2 -translate-y-1/2 -left-3 h-[80%] w-[30%] z-0"/>
 </div>
