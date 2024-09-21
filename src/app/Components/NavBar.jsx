@@ -16,9 +16,9 @@ const NavBar = () => {
         gsap.set("#AboutScreen", {pointerEvents:"none"});
         gsap.set("#HomeScreen", {pointerEvents:"all"});
         
-        gsap.to("#ExpertiseScreen", {opacity:0, duration:0.7});
-        gsap.to("#AboutScreen", {opacity:0, duration:0.7});
-        gsap.to("#HomeScreen", {opacity:1, duration:0.7});
+        gsap.to("#ExpertiseScreen", {opacity:0, duration:0.35});
+        gsap.to("#AboutScreen", {opacity:0, duration:0.35});
+        gsap.to("#HomeScreen", {opacity:1, duration:0.35});
         
         gsap.to("#TopBar", {opacity:window.innerWidth>768?1:0.66})
         gsap.to("#lightTopBar", {opacity:0})
@@ -29,9 +29,9 @@ const NavBar = () => {
             gsap.set("#HomeScreen", {pointerEvents:"none"});
             gsap.set("#ExpertiseScreen", {pointerEvents:"all"});
 
-            gsap.to("#AboutScreen", {opacity:0, duration:0.7});
-            gsap.to("#HomeScreen", {opacity:0, duration:0.7});
-            gsap.to("#ExpertiseScreen", {opacity:1, duration:0.7});
+            gsap.to("#AboutScreen", {opacity:0, duration:0.35});
+            gsap.to("#HomeScreen", {opacity:0, duration:0.35});
+            gsap.to("#ExpertiseScreen", {opacity:1, duration:0.35});
 
             gsap.to("#TopBar", {opacity:window.innerWidth>768?1:0.66})
             gsap.to("#opacityTopBar", {opacity:0})
@@ -47,9 +47,9 @@ const NavBar = () => {
             gsap.set("#HomeScreen", {pointerEvents:"none"});
             gsap.set("#AboutScreen", {pointerEvents:"all"});
             
-            gsap.to("#ExpertiseScreen", {opacity:0, duration:0.7});
-            gsap.to("#HomeScreen", {opacity:0, duration:0.7});
-            gsap.to("#AboutScreen", {opacity:1, duration:0.7});
+            gsap.to("#ExpertiseScreen", {opacity:0, duration:0.35});
+            gsap.to("#HomeScreen", {opacity:0, duration:0.35});
+            gsap.to("#AboutScreen", {opacity:1, duration:0.35});
 
             gsap.to("#opacityTopBar", {opacity:0.66})
             gsap.to("#lightTopBar", {opacity:0})

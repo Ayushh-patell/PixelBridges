@@ -46,13 +46,13 @@ export default function Home() {
       <div className=" absolute bottom-0 left-0 w-full flex sm1:flex-row flex-col-reverse justify-between items-center md:gap-16 sm1:gap-2 gap-4">
       {/* LEFT BACKGORUND COLOR */}
       <div className=" sm1:w-3/4 w-screen h-28 bg-white mix-blend-overlay sm1:-translate-x-10 -translate-x-[1.7rem] absolute z-[-5] sm1:top-1/2 sm1:bottom-auto bottom-0 sm1:-translate-y-1/2 left-0"/>
-        <div className={` sm1:w-3/4 w-full flex-shrink-0 h-28 text-white lg:text-base md:text-xs sm4:text-[10px] text-[8px] sm1:-translate-x-10 sm1:pl-10 flex sm1:flex-row flex-col sm1:justify-between justify-around items-center lg:gap-10 md:gap-5 gap-0 ${mont.className}`}>
-          <p className=' font-bold flex flex-col justify-center sm1:items-start items-center sm1:text-left text-center'>
-          <span className=" lg:text-base md:text-xs text-[10px]">At Pixelbridges, we turn your website into a powerful tool</span> 
+        <div className={` sm1:w-3/4 w-full flex-shrink-0 h-28 text-white lg:text-xl md:text-xs sm4:text-[10px] text-[8px] sm1:-translate-x-10 sm1:pl-10 flex sm1:flex-row flex-col sm1:justify-between justify-around items-center lg:gap-10 md:gap-5 gap-0 ${mont.className}`}>
+          <p className=' font-bold flex flex-col justify-center sm1:items-start items-center sm1:text-left text-center lg:text-base'>
+          <span className=" lg:text-xl md:text-xs text-[10px] text-white/70">At Pixelbridges, we turn your website into a powerful tool</span> 
           <span className=" font-extralight">that looks great and performs even better, be it revamping or creating from scratch.</span>
           </p>
-          <p className=' font-extralight flex flex-col justify-center items-center text-center'>
-          <span className=" lg:text-base md:text-xs text-[10px]">We combine creativity, cutting-edge technology, and user-focused design to</span>
+          <p className=' font-extralight flex flex-col justify-center items-center text-center text-balance'>
+          <span className=" lg:text-base md:text-xs text-[10px] text-white/70">We combine creativity, cutting-edge technology, and user-focused design to</span>
           <span className="font-bold">ensure your website stands out.</span>
           </p>
         </div>
