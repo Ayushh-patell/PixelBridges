@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+/Pixel Bridges Web
+Pixel Bridges Web.zip
+/out
+/out.zip
+PixelBridges.zip
 
 # testing
 /coverage
